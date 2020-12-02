@@ -6,4 +6,4 @@ from blog.models import Blog
 class BlogSerializer(serializers.ModelSerializer):
     class Meta:
         model = Blog
-        fields = ['author', 'title', 'description']
+        fields = ['id', 'author', 'title', 'description']
